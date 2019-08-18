@@ -1,0 +1,39 @@
+{
+  "name": "component-published",
+  "version": "0.0.1",
+  "description": "My Webpack Widget",
+  "repository": "https://github.com/reginaldoMorais/component-published.git",
+  "main": "dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "clean": "rm -Rf dist",
+    "build": "npm run clean && webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "reginaldoMorais <reginaldo.cmorais@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "path": "^0.12.7",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
