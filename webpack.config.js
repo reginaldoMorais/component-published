@@ -6,6 +6,10 @@ const { join, resolve } = require("path");
 module.exports = {
   entry: join(__dirname, "src", "index.js"),
 
+  devtool: "source-map",
+
+  target: "web",
+
   mode: "production",
 
   optimization: { minimizer: [] },

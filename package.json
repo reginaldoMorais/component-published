@@ -1,7 +1,7 @@
 {
   "name": "component-published",
-  "version": "0.0.1",
-  "description": "My Webpack Widget",
+  "version": "0.0.14",
+  "description": "Test of creating React library",
   "repository": "https://github.com/reginaldoMorais/component-published.git",
   "main": "dist/index.js",
   "files": [
@@ -17,10 +17,13 @@
   "author": "reginaldoMorais <reginaldo.cmorais@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "react-dom": "^16.6.0",
+    "styled-components": "^4.3.2"
   },
   "peerDependencies": {
+    "prop-types": "^15.7.2",
     "react": "16.x",
     "react-dom": "16.x"
   },
